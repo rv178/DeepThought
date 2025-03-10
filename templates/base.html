@@ -70,8 +70,8 @@
   {% endif %}
 </head>
 
-<body class="has-background-white">
-  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+<body>
+  <nav aria-label="section navigation" class="navbar" role="navigation">
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item is-size-5 has-text-weight-bold" href="{{config.base_url}}">{{ config.title }}</a>
@@ -97,10 +97,7 @@
               <i class="fas fa-search"></i>
             </span>
           </a>
-          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
-            <span class="icon">
-              <i class="fas fa-adjust"></i>
-            </span>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme" style="height: 0px;width: 0px;overflow:hidden;">
           </a>
         </div>
       </div>
